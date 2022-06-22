@@ -1,0 +1,114 @@
+.section{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 5px;
+    height: 100%;
+}
+.body-content1{
+    width: 100%;
+    height: 100%;
+}
+dd  p #txt{
+    display: none;
+}
+.col1,.col2{
+    float: left;
+    position:relative;
+    padding-left: 100px;
+    top: 50px;
+    width: 50%;
+    height: 100%;
+}
+h2{
+    text-align: center;
+    margin-right: 250px;
+}
+.col2{
+    left: 0px ;
+    top: 1px;
+}
+.btn{
+    background-color: #C1A874;
+    cursor: pointer;
+    height: 50px;
+    width: 80px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+.table{
+    float: left;
+    left: 90px;
+    width: 100%;
+    height: 50%;
+    margin: 50px;
+    margin-top: 0;
+}
+tbody{
+    width: 100%;
+    top: 10px;
+}
+.bform{
+    background-color: white;
+    padding: 20px 5px;
+    height: 30px;
+    width: 300px;
+    border-style:none none solid none;
+}
+td{
+    max-width: 100%;
+    padding: 10px;
+    font-weight: 400px;
+    height: 30%;;
+    
+}
+tr{
+    margin: 20px;
+    padding: 50px;
+}
+#number{
+    width: 200px;
+}
+#file{
+    margin-top: 0;
+    padding-bottom: 40px;
+    border-style: none;
+    
+}
+#name_error,
+#email_error,
+#phone_error,
+#last_error,
+#phone_nerror{
+    color: red;
+    display: none;
+}
+#button{
+    height: 35px;
+    padding:7px;
+    width: 300px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+#button:hover{
+    background-color: #C1A874;
+
+}
+.active{
+    text-decoration: none;
+}
+.active::after{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    padding-left: 3px;
+    background: #C1A874;
+    text-align: center;
+}

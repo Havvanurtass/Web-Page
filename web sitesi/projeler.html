@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projeler</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--sayfanızın tüm cihazlara uyarlanacağını bildirmek için -->
+        <meta name="description" content="mimarlık">
+        <meta name="keywords" content="mimarlık,tasarımlar">
+        <link href="css/index.css" type="text/css" rel="stylesheet"/>
+        <link href="css/projeler.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="header-container" id="menu">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo1.png "width=100></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="index.html#nasılyapılır">Nasıl Yapılır</a></li>
+                    <li><a href="projeler.html">Projeler</a></li>
+                    <li><a onclick="giris()">Başvuru</a></li>
+                    <li><a href="giris.html">Giriş Yap</a></li>
+                </ul>
+            </div>  
+        </header>
+        <div class="img-container">
+            <div class="row-container">
+                <div class="col-content">
+                    <h2>OFİS</h2>
+                    <a href="ofis.html"><img id="pimg" src="img/ofis/mimari-fotograf-cekimi-1.jpg"></a>
+                </div>
+                <div class="col-content">
+                    <h2>OTEL</h2>
+                    <a href="otel.html"><img id="pimg" src="img/otel/konsept_otel2_ic_mekan_1.jpg"></a>
+                </div>
+                <div class="col-content">
+                    <h2>KONUT</h2>
+                    <a href="konut.html"><img id="pimg" src="img/konut/konut_ic_mekan_1.jpg"></a>
+                </div>
+                <div class="col-content">
+                    <h2>RESTAURANT</h2>
+                    <a href="restaurant.html"><img id="pimg" src="img/restaurant/daily_restauran1.jpg"></a>
+                </div>
+                <div class="col-content">
+                    <h2>ÇOCUK ODASI</h2>
+                    <a href="cocukodası.html"><img id="pimg" src="img/cocukodası/cocuk_odası1.jpg"></a>
+                </div>
+                <div class="col-content">
+                    <h2>BH EVLERİ</h2>
+                    <a href="BHEvleri.html"><img id="pimg" src="img/bh evleri-urla/BH_Evi_Urla_villa_ic_mekan_1.jpg"></a>
+                </div>
+
+            </div>
+        </div>
+        <section class="section"></section>
+        <div class="bottom-container">
+            <div class="sosyalmedya">
+                <ul>
+                  <li><a href="https://www.instagram.com/osmimarlik5/"><img src="https://img.icons8.com/metro/26/ffffff/instagram-new.png"/></a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=100068748852638"><img src="https://img.icons8.com/android/24/ffffff/facebook-new.png"/></a></li>
+                  <li><a href="mailto:osmimarlik@outlook.com"><img src="https://img.icons8.com/android/24/ffffff/gmail-login.png"/></a></li>
+                </ul>
+            </div>
+        </div>          
+        <div class="overlay">
+            <div id="warmlog" class="modalbox">
+                <div class="modalbox-content">
+                    <span class="close">&times;</span>
+                    <p >Başvuru yapabilmek için önce giriş yapmalısınız.</p>
+                    <div class="modalbox-footer">
+                    <button id="rightbtn"><a href="giris.html">Giriş Yap</a></button>
+                </div> 
+            </div>
+            <script src="js/giris.js" type="text/javascript"></script>
+            <script src="js/projeler.js"></script>
+    </body>
+</html>

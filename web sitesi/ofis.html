@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/projeler.css" type="text/css" rel="stylesheet"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/projeler.js"></script> 
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo1.png "width=100></a>
+        </div>
+        <div class="menu" id="menu">
+          <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="index.html#nasılyapılır">Nasıl Yapılır</a></li>
+            <li><a href="projeler.html">Projeler</a></li>
+            <li><a onclick="giris()">Başvuru</a></li>
+            <li><a href="hakkımızda.html">Hakkımızda</a></li>
+            <li><a href="giris.html">Giriş Yap</a></li>
+          </ul>
+       </div>   
+     </div>
+    </header>
+    <div class="leftbox">
+      <h3>MA OFİS</h3>
+      <div class="img-container">
+        <div class="column" id="column">
+          <img id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-1.jpg" style="width: 100%;"  onclick="openImg();clickSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column" id="column">
+          <img id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-2.jpg" style="width: 100%;" onclick="openImg();clickSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column" id="column">
+          <img  id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-3.jpg" style="width:100%" onclick="openImg();clikSlide(3)"class="hover-shadow cursor">
+        </div>
+        <div class="column" id="column">
+          <img  id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-4.jpg" style="width:100%" onclick="openImg();clickSlide(4)"class="hover-shadow cursor">
+        </div>
+        <div class="column" id="column">
+          <img  id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-5.jpg" style="width:100%" onclick="openImg();clickSlide(5)"class="hover-shadow cursor">
+        </div>
+        <div class="column" id="column">
+          <img  id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-6.jpg" style="width:100%" onclick="openImg();clickSlide(6)"class="hover-shadow cursor">
+        </div>
+        <div class="column" id="column">
+          <img  id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-7.jpg" style="width:100%" onclick="openImg();clickSlide(7)"class="hover-shadow cursor">
+        </div>  
+        <div class="column" id="column">
+          <img  id="thumbnail" src="img/ofis/mimari-fotograf-cekimi-8.jpg" style="width:100%" onclick="openImg();clickSlide(8)"class="hover-shadow cursor">
+        </div>
+      </div>
+      <div id="myImg" class="modal">
+        <span class="close cursor" onclick="closeImg()">&times;</span>
+        <div class="modal-container">
+          <div class="modalSlides">
+            <img src="img/ofis/mimari-fotograf-cekimi-1.jpg" style="width:100%">
+          </div>
+          <div class="modalSlides">
+            <img src="img/ofis/mimari-fotograf-cekimi-2.jpg" style="width:100%">
+          </div>
+          <div class="modalSlides">
+            <img src="img/ofis/mimari-fotograf-cekimi-3.jpg" style="width:100%">
+          </div>
+          <div class="modalSlides">
+           <img src="img/ofis/mimari-fotograf-cekimi-4.jpg" style="width:100%">
+          </div>
+          <div class="modalSlides">
+            <img src="img/ofis/mimari-fotograf-cekimi-5.jpg" style="width:100%">
+          </div>
+           <div class="modalSlides">
+            <img src="img/ofis/mimari-fotograf-cekimi-6.jpg" style="width:100%">
+          </div>
+          <div class="modalSlides">
+            <img src="img/ofis/mimari-fotograf-cekimi-7.jpg" style="width:100%">
+          </div>
+           <div class="modalSlides">
+            <img src="img/ofis/mimari-fotograf-cekimi-8.jpg" style="width:100%">
+          </div>
+          <a id="prev" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a id="next" class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+      <div class="rightbox">
+        <table id="table1">
+          <tr>
+            <td><th>Alan:</th></td>
+            <td>50m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td><th>Yer:</th></td>
+            <td>İstanbul-Ortaköy</td>
+          </tr>
+          <tr>
+            <td><th>Tarih:</th></td>
+            <td>2018</td>
+          </tr>
+        </table>
+      </div>
+     <div class="overlay">
+       <div id="warmlog" class="modalbox">
+         <div class="modalbox-content">
+           <span class="close">&times;</span>
+           <p >Başvuru yapabilmek için önce giriş yapmalısınız.</p>
+           <div class="modalbox-footer">
+             <button id="rightbtn"><a href="giris.html">Giriş Yap</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

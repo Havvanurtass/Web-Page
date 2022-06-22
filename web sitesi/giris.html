@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <title>ÖS MİMARLIK</title>
+        <meta charset="utf-8">
+        <meta name="viewort" content="width=device-width, initial-scale=1.0"><!--sayfanızın tüm cihazlara uyarlanacağını bildirmek için -->
+        <meta name="description" content="mimarlık">
+        <meta name="keywords" content="mimarlık,tasarımlar">
+        <link href="css/index.css" type="text/css" rel="stylesheet"/>
+        <script src="js/giris.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header class="header-container">
+            <div id="header" class="header">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo1.png "width=100></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="index.html#nasılyapılır">Nasıl Yapılır</a></li>
+                        <li><a href="projeler.html">Projeler</a></li>
+                        <li><a href="basvuru.html">Başvuru</a></li>
+                        <li><a href="hakkımızda.html">Hakkımızda</a></li>
+                        <li><a href="giris.html">Giriş Yap</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </header>
+    </head>
+    <body>
+            <div class="login-container">
+                <div class="limg"><img id="limg" src="img/1.jpg"></div>
+                <div class="userlogin">
+                    <h2>GİRİŞ</h2>
+                    <form>
+                        <input type="text" id="fname" placeholder="Kulanıcı Adı">
+                        <div id="name_null">Lütfen Kullanıcı Adınızı Giriniz</div>
+                        <input type="password" id="pass" placeholder="Parola"><br>
+                        <div id="pass_null">Lütfen Parolanızı Giriniz</div>
+                        <input type="button" value="Giriş Yap" id="login">
+                        <div id="login_error">Hatalı Kullanıcı Adı ya da şifre</div>
+                    </form>
+                </div>
+            </div>
+            <div class="overlay">
+                <div id="warmlog" class="modalbox">
+                    <div class="modalbox-content">
+                        <span class="close">&times;</span>
+                        <p >Başvuru yapabilmek için önce giriş yapmalısınız.</p>
+                        <div class="modalbox-footer">
+                        <button id="rightbtn"><a href="giris.html">Giriş Yap</a></button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <script src="js/login.js" type="text/javascript"></script>
+    </body>
+</html>
